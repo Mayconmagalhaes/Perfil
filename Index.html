@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="pt-br"> <!-- define a ligua de origem e carregamento da pagina -->
+
+  <head>
+    <!-- facilita a utilização de simbolos e letras para inscrição de texto -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- carrega o estilo de fonte utilizado no css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Exporta Icones do Box Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+
+    <!-- adiciona um icone -->
+    <link rel="icon" type="image/png" href="assets/icon.png" />
+
+    <!-- Titulo da Página -->
+    <title>Perfil-Web</title>
+  </head>
+
+  <!-- corpo da Página -->
+  <body>
+
+    <!-- cessão de navegação -->
+    <nav class="sidebar close">
+
+      <!-- cabeçario da página -->
+      <header>
+
+        <!-- carrega a foto utilizada no pérfil -->
+        <div class="image-text">
+          <span class="image">
+            <img src="./assets/Foto de Perfil.jpg"alt="logo"/>
+          </span>
+
+          <!-- carrega as informações ao lado da foto -->
+          <div class="text header-text">
+            <span class="name">Lugrínus_XIII</span>
+            <span class="profession">Front-end Developer</span>
+            <span class="categoria">Bronze II</span>
+          </div>
+        </div>
+        
+        <!-- exporta o icone de recolhimento e expansão do perfil -->
+        <i class="bx bxs-chevron-right toggle"></i>
+      </header>
+
+      <!-- Menu -->
+      <div class="menu-bar">
+        <div class="menu">
+
+          <!-- caixa de busca e seu Icone -->
+          <!-- Por enquanto sem Funcionalidade -->
+          <li class="search-box">
+            <i class="bx bx-search-alt icon"></i>
+            <input type="text" placeholder="Search..." />
+          </li>
+
+          <!-- Butão Home e seu Icone -->
+          <!-- Por enquanto sem Funcionalidade -->
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bxs-home icon"></i>
+                <!-- Texto de Especificação -->
+                <span class="text nav-text">Home</span>
+              </a>
+            </li>
+
+            <!-- Aba de Notificações e seu Icone -->
+            <!-- Por enquanto sem Funcionalidade -->
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bxs-bell-ring icon"></i>
+                <!-- Texto de Especificação -->
+                <span class="text nav-text">Notifications</span>
+              </a>
+            </li>
+
+            <!-- Aba para Album de Fotos e seu Icone -->
+            <!-- Por enquanto sem Funcionalidade -->
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bxs-photo-album icon"></i>
+                <!-- Texto de Especificação -->
+                <span class="text nav-text">Pictures Álbum</span>
+              </a>
+            </li>
+
+            <!-- Aba para Biblioteca e seu icone -->
+            <!-- Por enquanto sem Funcionalidade -->
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-library icon"></i>
+                <!-- Texto de Especificação -->
+                <span class="text nav-text">Library</span>
+              </a>
+            </li>
+
+            <!-- Aba para Videos e seu Icone -->
+            <!-- Por enquanto sem Funcionalidade -->
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bxs-slideshow icon"></i>
+                <!-- Texto de Especificação -->
+                <span class="text nav-text">Vídeos</span>
+              </a>
+            </li>
+
+            <!-- Aba para Músicas e seu Icone -->
+            <!-- Por enquanto sem Funcionalidade -->
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bxl-deezer icon"></i>
+                <!-- Texto de Especificação -->
+                <span class="text nav-text">Music</span>
+              </a>
+            </li>
+
+            <!-- Aba para Chats e seu Icone -->
+            <!-- Por enquanto sem Funcionalidade -->
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bxs-message-rounded-dots icon"></i>
+                <!-- Texto de Especificação -->
+                <span class="text nav-text">Chats</span>
+              </a>
+            </li>
+
+            <!-- Aba para contúdo curtido e seu Icone -->
+            <!-- Por enquanto sem Funcionalidade -->
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bxs-heart icon"></i>
+                <!-- Texto de Especificação -->
+                <span class="text nav-text">Likes</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Aba para Logoff e seu Icone -->
+        <!-- Por enquanto sem Funcionalidade -->
+        <div class="bottom-content">
+          <li class="">
+            <a href="#">
+              <i class="bx bxs-door-open icon"></i>
+              <!-- Texto de Especificação -->
+              <span class="text nav-text">Logout</span>
+            </a>
+          </li>
+
+          <!-- Light & Dark Mode -->
+          <!-- Icones de Sol e Lua -->
+          <li class="mode">
+            <div class="moon-sun">
+              <i class="bx bxs-moon icon moon"></i>
+              <i class="bx bxs-sun icon sun"></i>
+            </div>
+
+            <!-- Texto de Especificação -->
+            <span class="mode-text text">Dark Mode</span>
+
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Aba do Painel -->
+    <section class="home">
+      <div class="text">Dashboard</div>
+    </section>
+
+      <!-- Carrega o JavaScript -->
+    <script src="Web.js"></script>
+  </body>
+</html>
